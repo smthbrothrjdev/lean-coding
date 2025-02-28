@@ -49,7 +49,7 @@
     - [13.1. Avoid Excessive Logging](#131-avoid-excessive-logging)
     - [13.2. Use Appropriate Log Levels](#132-use-appropriate-log-levels)
 14. [Resource Management](#14-resource-management)
-    - [14.1. Proper Resource Deallocation](#141-proper-resource-deallocation)
+    - [14.1. Proper Resource De-allocation](#141-proper-resource-de-allocation)
     - [14.2. Use of Auto-Closable Resources](#142-use-of-auto-closable-resources)
 
 ---
@@ -265,7 +265,7 @@ Memoization stores the results of expensive function calls and reuses them when 
         }
     }
 
-**Why It’s Bad**: Each call re-computes values for overlapping subproblems, causing repeated work and high CPU usage.
+**Why It’s Bad**: Each call re-computes values for overlapping sub-problems, causing repeated work and high CPU usage.
 
 **Strategies to Fix**
 
@@ -794,7 +794,7 @@ Run tasks concurrently to improve efficiency.
         }
     }
 
-**How It Fixes**: Multiple threads can handle different tasks simultaneously, improving throughput and leveraging multi-core architectures.
+**How It Fixes**: Multiple threads can handle different tasks simultaneously, improving throughput and leveraging multicore architectures.
 
 > **Learn More**
 >
@@ -1390,7 +1390,7 @@ Ensure logs are meaningful and not overwhelming.
 
 ## 14. Resource Management
 
-### 14.1. Proper Resource Deallocation
+### 14.1. Proper Resource De-allocation
 
 Clean up resources to prevent leaks.
 
@@ -1491,7 +1491,3 @@ Use \`AutoCloseable\` for efficient resource handling.
 > - [AutoCloseable Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/AutoCloseable.html)
 > - [Effective Resource Management in Java](https://www.baeldung.com/try-with-resources)
 
-      document.getElementById("downloadLink").href = dataUri;
-    </script>
-  </body>
-</html>
