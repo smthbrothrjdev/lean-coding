@@ -119,7 +119,7 @@ Minimize the number of nested loops to reduce time complexity.
 > **Learn More**
 >
 > - [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation)
-> - [Algorithm Optimization Techniques](https://www.geeksforgeeks.org/algorithm-optimization-techniques/)
+> - [Loop Optimization Techniques](https://www.geeksforgeeks.org/loop-optimization-in-compiler-design/)
 
 ---
 
@@ -1489,5 +1489,5 @@ Use \`AutoCloseable\` for efficient resource handling.
 > **Learn More**
 >
 > - [AutoCloseable Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/AutoCloseable.html)
-> - [Effective Resource Management in Java](https://www.baeldung.com/try-with-resources)
+> - [Effective Resource Management in Java](https://www.baeldung.com/java-try-with-resources)
 
